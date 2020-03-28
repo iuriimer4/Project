@@ -10,7 +10,7 @@ public class Biggram {
         Map<String, Integer> frequency = new LinkedHashMap<String, Integer>();
 
         try {
-            scanner = new Scanner(new File("C:\\Users\\test.txt"));
+            scanner = new Scanner(new File("test-folder/test.txt"));
 
             String content = "";
             while (scanner.hasNextLine()) {
